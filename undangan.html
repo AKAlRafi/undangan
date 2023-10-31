@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: black;
+    }
+
+    div.container {
+        min-width: 300px;
+        max-width: 500px;
+        margin: 0px auto;
+    }
+
+    section.page {
+        width: 100%;
+        min-height: 100vh;
+        background-color: rgb(42, 42, 42);
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction:column ;
+        justify-content:center;
+        align-items: center;
+        color: white;
+    }
+
+    section.page > div > p, section.page > div > h1 {
+        text-align: center;
+    }
+
+    section.page.one {
+        gap: 300pt;
+    }
+
+    section.page.one > div > h1 {
+        font-size: 30pt;
+    }
+
+    section.page.two {
+        justify-content: space-evenly;
+        padding: 30pt;
+    }
+
+    div.card {
+        padding: 10pt;
+        width: 250pt;
+        min-height: 300pt;
+        background-color: rgb(70, 70, 70);
+        border-radius: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    div.circle {
+        width: 150pt;
+        height: 150pt;
+        border-radius: 75pt;
+        background-image: url(nguwawor.png);
+        background-size: 100%;
+        margin-bottom: 50px;
+    }
+
+    div.line {
+        width: 200px;
+        height: 3px;
+        background-color: black;
+        margin: 10px auto;
+    }
+
+    .front{
+        background-image: url(edp.jpg);
+        background-size: 100%;
+    }
+</style>
+<body>
+    <div class="container">
+        <section class="page front"></section>
+        <section class="page one">
+            <div class="title">
+                <p>The Wedding Of</p>
+                <h1>Hardin & Fu'ad</h1>
+                <p>Minggu, September 31 2053</p>
+            </div>
+
+            <div class="guest-name">
+                <p>Kepada Yth.</p>
+                <p>Mas Faiz, Ph.D</p>
+            </div>
+        </section>
+        <section class="page two">
+            <h1>The Beloved</h1>
+            <h1>Hardin & Fu'ad</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi repellendus animi similique delectus, magni sint tenetur ipsam eum, labore tempore necessitatibus saepe exercitationem. Sequi enim expedita vero impedit tempore saepe aut vel ducimus natus veniam obcaecati, libero magni corrupti repellat ut corporis officiis. Rerum ratione explicabo sapiente mollitia reprehenderit dolorem.</p>
+            <div class="card">
+                <div class="circle"></div>
+                <h1>Fu'ad 69</h1>
+                <div class="line"></div>
+                <p>Putra Pertama</p>
+                <p>Mas Dedi</p>
+                <p>&</p>
+                <p>Ibu Julianti</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
